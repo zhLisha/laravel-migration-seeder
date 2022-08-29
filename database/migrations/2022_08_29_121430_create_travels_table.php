@@ -28,8 +28,8 @@ class CreateTravelsTable extends Migration
              $table->date('return_day');
              // Costo totale
              $table->decimal('price', 8, 2)->unsigned();
-             
-            $table->timestamps();
+
+            $table->timestamps(); 
         });
     }
 
